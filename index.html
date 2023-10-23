@@ -219,8 +219,19 @@
      <section class="team-container"> <h2>Our Team</h2>
       <div class="persons-class">
          <ul><div class="card-item"><li>
-          <img src="./images/Christopher.jpg" alt="Christopher" width="270px" height="260px">
-          <div class="card-person">
+          <picture>
+            <!--Desktop--->
+            <source media="(min-width:1158px)" srcset="./images/Christopher.jpg 1x,
+            ./images/Christopher-d2.jpg 2x"/>
+            <!--Tablet-->
+            <source media="(min-width:768px)" srcset="./images/Christopher-t.jpg 1x,
+            ./images/Christopher-t2.jpg 2x"/>
+            <!--Mobile-->
+            <source srcset="./images/Christopher-m.jpg 1x,
+            ./images/Christopher-m2.jpg 2x"/>
+            <img src="images/Christopher-d.jpg" alt="Christopher"/>
+              </picture>
+         <div class="card-person">
             <h3>Christopher Walker</h3>
             <p>Product Designer</p>
             <div class="social-media"><div class="social-item"><svg class="icon-instagram">
@@ -239,7 +250,18 @@
           </div>
         </li></div>
             <div class="card-item"><li>
-              <img src="./images/Kyley.jpg" alt="Kyley" width="270px" height="260px">
+              <picture>
+                <!--Desktop--->
+                <source media="(min-width:1158px)" srcset="./images/Kyley.jpg 1x,
+                          ./images/Kyley-d2.jpg 2x" />
+                <!--Tablet-->
+                <source media="(min-width:768px)" srcset="./images/Kyley-t.jpg 1x,
+                          ./images/Kyley-t2.jpg 2x" />
+                <!--Mobile-->
+                <source srcset="./images/Kyley-m.jpg 1x,
+                          ./images/Kyley-m2.jpg 2x" />
+                <img src="images/Kyley.jpg" alt="Kyley" />
+              </picture>
               <div class="card-person">
                 <h3>Kylie Evans</h3>
                 <p>Frontend Developer</p>
@@ -261,7 +283,18 @@
               </div>
             </li></div>
             <div class="card-item"><li>
-              <img src="./images/Ryan.jpg" alt="Ryan" width="270px" height="260px">
+              <picture>
+                <!--Desktop--->
+                <source media="(min-width:1158px)" srcset="./images/Ryan.jpg 1x,
+                          ./images/Ryan-d2.jpg 2x" />
+                <!--Tablet-->
+                <source media="(min-width:768px)" srcset="./images/Ryan-t.jpg 1x,
+                          ./images/Ryan-t2.jpg 2x" />
+                <!--Mobile-->
+                <source srcset="./images/Ryan-m.jpg 1x,
+                          ./images/Ryan-m2.jpg 2x" />
+                <img src="images/Ryan.jpg" alt="Ryan" />
+              </picture>
               <div class="card-person">
                 <h3>Ryan Harris</h3>
                 <p>Marketing</p>
@@ -283,7 +316,18 @@
               </div>
             </li></div>
             <div class="card-item"><li>
-              <img src="./images/Tyler.jpg" alt="Tyler" width="270px" height="260px">
+            <picture>
+              <!--Desktop--->
+              <source media="(min-width:1158px)" srcset="./images/Tyler.jpg 1x,
+                        ./images/Tyler-d2.jpg 2x" />
+              <!--Tablet-->
+              <source media="(min-width:768px)" srcset="./images/Tyler-t.jpg 1x,
+                        ./images/Tyler-t2.jpg 2x" />
+              <!--Mobile-->
+              <source srcset="./images/Tyler-m.jpg 1x,
+                        ./images/Tyler-m2.jpg 2x" />
+              <img src="images/Tyler.jpg" alt="Tyler" />
+            </picture>
               <div class="card-person">
                 <h3>Tyler Moore</h3>
                 <p>UI Design</p>
@@ -311,8 +355,8 @@
         <ul>
           <div class="card-item-mobile">
             <li>
-              <img src="./images/Christopher.jpg" alt="Christopher" width="270px" height="260px">
-              <div class="card-person">
+              <img src="./images/Christopher.jpg" alt="Christopher" width="450px" height="460px">
+              <div class="card-person-mobile">
                 <h3>Christopher Walker</h3>
                 <p>Product Designer</p>
                 <div class="social-media">
@@ -335,8 +379,8 @@
           </div>
           <div class="card-item-mobile">
             <li>
-              <img src="./images/Kyley.jpg" alt="Kyley" width="270px" height="260px">
-              <div class="card-person">
+              <img src="./images/Kyley.jpg" alt="Kyley" width="450px" height="460px">
+              <div class="card-person-mobile">
                 <h3>Kylie Evans</h3>
                 <p>Frontend Developer</p>
                 <div class="social-media">
@@ -359,8 +403,8 @@
           </div>
           <div class="card-item-mobile">
             <li>
-              <img src="./images/Ryan.jpg" alt="Ryan" width="270px" height="260px">
-              <div class="card-person">
+              <img src="./images/Ryan.jpg" alt="Ryan"width="450px" height="460px">
+              <div class="card-person-mobile">
                 <h3>Ryan Harris</h3>
                 <p>Marketing</p>
                 <div class="social-media">
@@ -383,8 +427,8 @@
           </div>
           <div class="card-item-mobile">
             <li>
-              <img src="./images/Tyler.jpg" alt="Tyler" width="270px" height="260px">
-              <div class="card-person">
+              <img src="./images/Tyler.jpg" alt="Tyler" width="450px" height="460px">
+              <div class="card-person-mobile">
                 <h3>Tyler Moore</h3>
                 <p>UI Design</p>
                 <div class="social-media">
@@ -408,6 +452,107 @@
       
         </ul>
       </div>
+        <div class="persons-class-tablet">
+          <ul >
+            <div class="card-item-tablet">
+              <li>
+                <img src="./images/Christopher.jpg" alt="Christopher" width="354px" height="374px">
+                <div class="card-person-tablet">
+                  <h3>Christopher Walker</h3>
+                  <p>Product Designer</p>
+                  <div class="social-media">
+                    <div class="social-item"><svg class="icon-instagram">
+                        <use href="./images/symbol-defs.svg#icon-instagram-1">
+                      </svg>
+                    </div>
+                    <div class="social-item"><svg class="icon-facebook">
+                        <use href="./images/symbol-defs.svg#icon-facebook-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-twitter">
+                        <use href="./images/symbol-defs.svg#icon-twitter-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-linkedin">
+                        <use href="./images/symbol-defs.svg#icon-linkedin-1" />
+                      </svg></div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="card-item-tablet">
+              <li>
+                <img src="./images/Kyley.jpg" alt="Kyley" width="354px" height="374px">
+                <div class="card-person-tablet">
+                  <h3>Kylie Evans</h3>
+                  <p>Frontend Developer</p>
+                  <div class="social-media">
+                    <div class="social-item"><svg class="icon-instagram">
+                        <use href="./images/symbol-defs.svg#icon-instagram-1">
+                      </svg>
+                    </div>
+                    <div class="social-item"><svg class="icon-facebook">
+                        <use href="./images/symbol-defs.svg#icon-facebook-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-twitter">
+                        <use href="./images/symbol-defs.svg#icon-twitter-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-linkedin">
+                        <use href="./images/symbol-defs.svg#icon-linkedin-1" />
+                      </svg></div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="card-item-tablet">
+              <li>
+                <img src="./images/Ryan.jpg" alt="Ryan" width="354px" height="374px">
+                <div class="card-person-tablet">
+                  <h3>Ryan Harris</h3>
+                  <p>Marketing</p>
+                  <div class="social-media">
+                    <div class="social-item"><svg class="icon-instagram">
+                        <use href="./images/symbol-defs.svg#icon-instagram-1">
+                      </svg>
+                    </div>
+                    <div class="social-item"><svg class="icon-facebook">
+                        <use href="./images/symbol-defs.svg#icon-facebook-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-twitter">
+                        <use href="./images/symbol-defs.svg#icon-twitter-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-linkedin">
+                        <use href="./images/symbol-defs.svg#icon-linkedin-1" />
+                      </svg></div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            <div class="card-item-tablet">
+              <li>
+                <img src="./images/Tyler.jpg" alt="Tyler"  width="354px" height="374px">
+                <div class="card-person-tablet">
+                  <h3>Tyler Moore</h3>
+                  <p>UI Design</p>
+                  <div class="social-media">
+                    <div class="social-item"><svg class="icon-instagram">
+                        <use href="./images/symbol-defs.svg#icon-instagram-1">
+                      </svg>
+                    </div>
+                    <div class="social-item"><svg class="icon-facebook">
+                        <use href="./images/symbol-defs.svg#icon-facebook-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-twitter">
+                        <use href="./images/symbol-defs.svg#icon-twitter-1" />
+                      </svg></div>
+                    <div class="social-item"><svg class="icon-linkedin">
+                        <use href="./images/symbol-defs.svg#icon-linkedin-1" />
+                      </svg></div>
+                  </div>
+                </div>
+              </li>
+            </div>
+        
+          </ul>
+        </div>
     </section>
     <!--Regular-section-->
     <section class="regular-container">
@@ -450,7 +595,80 @@
       
         </ul>
       </div>
-     
+          <div class="regular-section-mobile">
+            <ul>
+              <div class="logo-item-mobile">
+                <li>
+                  <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo" />
+                  </svg>
+                </li>
+              </div>
+              <div class="logo-item-mobile">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-2" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-mobile">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-3" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-mobile">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-group" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-mobile">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-4" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-mobile">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-5" />
+                  </svg></li>
+              </div>
+          
+            </ul>
+          </div>
+          <div class="regular-section-tablet">
+            <ul>
+              <div class="logo-item-tablet">
+                <li>
+                  <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo" />
+                  </svg>
+                </li>
+              </div>
+              <div class="logo-item-tablet">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-2" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-tablet">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-3" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-tablet">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-group" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-tablet">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-4" />
+                  </svg></li>
+              </div>
+              <div class="logo-item-tablet">
+                <li><svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-5" />
+                  </svg></li>
+              </div>
+          
+            </ul>
+          </div>
     
     </section>
 </main>
@@ -504,6 +722,115 @@
       </div>
     </form></div>
    
+    </div>
+    <div class="footer-container-mobile">
+      <div class="mobile-footer"><a href="http://127.0.0.1:5500/index.html">
+          <h1 class="title-footer-mobile"><span class="web-section">Web</span><span class="studio-section-footer">Studio</span>
+          </h1>
+        </a>
+        <br>
+        <br>
+        <address class="address-class-mobile">695 Park Ave, NY 10065, USA
+          <br>
+          <br>
+          <a href="mail to:info@devstudio.com">info@devstudio.com</a>
+          <br>
+          <br>
+          <a href="tel:+1 212-772-4150">+1 212-772-4150</a>
+          <br>
+        </address>
+      </div>
+    
+      <div class="find-section-mobile">
+        <h3>FIND US ON</h3>
+        <div class="social-media-footer">
+          <div class="social-item-footer"><svg class="icon-instagram">
+              <use href="./images/symbol-defs.svg#icon-instagram-1">
+            </svg>
+          </div>
+          <div class="social-item-footer"><svg class="icon-facebook">
+              <use href="./images/symbol-defs.svg#icon-facebook-1" />
+            </svg></div>
+          <div class="social-item-footer"><svg class="icon-twitter">
+              <use href="./images/symbol-defs.svg#icon-twitter-1" />
+            </svg></div>
+          <div class="social-item-footer"><svg class="icon-linkedin">
+              <use href="./images/symbol-defs.svg#icon-linkedin-1" />
+            </svg></div>
+        </div>
+      </div>
+      <div class="subscribe-newsletter">
+        <form action="">
+          <legend class="title-subscribe">Subscribe to the newsletter</legend>
+          <label class="form-label-subscribe"></label>
+          <div class="subscribe-container-mobile">
+            <input type="email" name="email" class="input-email-mobile" placeholder="E-mail" />
+            <button type="submit" class="subscribe-btn-mobil">
+              <span>Subscribe</span>
+              <svg>
+                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    
+    </div>
+    <div class="footer-container-tablet">
+      <div class="tablet-footer"><div class="mobile-footer"><a href="http://127.0.0.1:5500/index.html">
+          <h1 class="title-footer-mobile"><span class="web-section">Web</span><span
+              class="studio-section-footer">Studio</span>
+          </h1>
+        </a>
+        <br>
+        <br>
+        <address class="address-class-mobile">695 Park Ave, NY 10065, USA
+          <br>
+          <br>
+          <a href="mail to:info@devstudio.com">info@devstudio.com</a>
+          <br>
+          <br>
+          <a href="tel:+1 212-772-4150">+1 212-772-4150</a>
+          <br>
+        </address>
+      </div>
+    <div class="find-section-mobile">
+      <h3>FIND US ON</h3>
+      <div class="social-media-footer">
+        <div class="social-item-footer"><svg class="icon-instagram">
+            <use href="./images/symbol-defs.svg#icon-instagram-1">
+          </svg>
+        </div>
+        <div class="social-item-footer"><svg class="icon-facebook">
+            <use href="./images/symbol-defs.svg#icon-facebook-1" />
+          </svg></div>
+        <div class="social-item-footer"><svg class="icon-twitter">
+            <use href="./images/symbol-defs.svg#icon-twitter-1" />
+          </svg></div>
+        <div class="social-item-footer"><svg class="icon-linkedin">
+            <use href="./images/symbol-defs.svg#icon-linkedin-1" />
+          </svg></div>
+      </div>
+    </div></div>
+      
+    
+     
+      <div class="subscribe-newsletter">
+        <form action="">
+          <legend class="title-subscribe">Subscribe to the newsletter</legend>
+          <label class="form-label-subscribe"></label>
+          <div class="subscribe-container-mobile">
+            <input type="email" name="email" class="input-email-mobile" placeholder="E-mail" />
+            <button type="submit" class="subscribe-btn-mobil">
+              <span>Subscribe</span>
+              <svg>
+                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    
     </div>
    
 </footer>
