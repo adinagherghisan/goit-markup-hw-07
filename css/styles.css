@@ -171,6 +171,7 @@ background-repeat: no-repeat;
     .article-section{width:100%}
    .article-section {display: none;}
    .article-section-tablet{display: none;}
+   .article-list-tablet{display: none;}
    .article-section-mobile ul{display: flex;
     flex-direction: column;
     
@@ -204,8 +205,8 @@ border-radius: 4px;
   display: flex;justify-content: center;
   align-items: center;}
   .article-item{margin-right: 30px;}
-  .article-item-mobile{width: 400px;margin-bottom: 30px;}
-  .article-item-mobile h3{text-align: center;margin-top: 30px;}
+  .article-item-mobile{width:90%;margin-bottom: 30px;margin-left: 15px;margin-right: 15px;}
+  .article-item-mobile h3{text-align: center;margin-top: 30px;width: 90%;margin-left: 15px;margin-right: 15px;}
   .article-item-mobile p{color: #757575;
 
     font-family: var(--heading-font-family);
