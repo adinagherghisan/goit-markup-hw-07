@@ -529,19 +529,42 @@ gap: 12px;}
     padding-left: 95px;}
 
     /*Products-section*/
-
-.filter-buttons-section{color: #212121;
+.filter-buttons-section-mobile{color: #212121;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,85%;
-  font-family: inherit;
-  transition: color var(--transition),background-color var(--transition),border var(--transition);
-}
+    line-height: 1, 85%;
+    font-family: inherit;
+    transition: color var(--transition), background-color var(--transition), border var(--transition);width: 80%;
+       }
+        .filter-buttons-section-mobile ul{display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 8px;}
+    .filter-buttons-section-mobile button{height: 38px;
+        width: 96px;
+        border-radius: 4px;
+        background-color: #F5F4FA;border: none;}
+                .filter-buttons-section-mobile button:hover {
+                    background-color: #2196F3;
+                    color: #FFF;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+                }
+        
+                .filter-buttons-section-mobile button:active {
+                    color: #FFF;
+                }
+        
+                .filter-buttons-section-mobile button:focus {
+                    background-color: #2196F3;
+                    color: #FFF;
+                }
+.filter-buttons-section{display: none;}
+
    .filter-buttons-section button{height: 38px;
     width: 96px;
     border-radius: 4px;
     background-color: #F5F4FA
-    ;}
+    ;border: none;margin-right: 8px;}
 .filter-objects-section h3{color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -1041,6 +1064,17 @@ gap: 30px;}
     justify-content: center;
     align-items: center;}
     .tablet-footer{display: flex;flex-direction: row;width: 100%;justify-content: space-around;}
+    .filter-buttons-section-mobile{display: none;}
+  
+          .filter-buttons-section {
+              display: block;
+              color: #212121;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 1, 85%;
+              font-family: inherit;
+              transition: color var(--transition), background-color var(--transition), border var(--transition);
+          }
 }
 
 /*Desktop*/
@@ -1215,5 +1249,12 @@ gap: 30px;}
                             flex-direction: row;
                             align-items: baseline;
                         }
+                        .filter-buttons-section-mobile{display: none;}
+                        .filter-buttons-section{display: block;color: #212121;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 1, 85%;
+                            font-family: inherit;
+                            transition: color var(--transition), background-color var(--transition), border var(--transition);}
 
 }
